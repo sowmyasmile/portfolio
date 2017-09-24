@@ -1,0 +1,430 @@
+{
+  "aggregations": [
+    {
+      "open": true,
+      "title": "Level",
+      "options": [
+        {
+          "value": "all",
+          "count": 3,
+          "title": "All Levels",
+          "url": "/api-2.0/search-courses/?lang=pt&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=newest&instructionalLevel=all",
+          "key": "instructionalLevel"
+        }
+      ],
+      "key": "instructional_level"
+    },
+    {
+      "open": true,
+      "title": "Language",
+      "options": [
+        {
+          "value": "en",
+          "count": 32,
+          "title": "English",
+          "url": "/api-2.0/search-courses/?lang=pt%7Cen&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=newest",
+          "key": "lang"
+        },
+        {
+          "value": "es",
+          "count": 6,
+          "title": "Español",
+          "url": "/api-2.0/search-courses/?lang=pt%7Ces&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=newest",
+          "key": "lang"
+        },
+        {
+          "count": 3,
+          "title": "Português",
+          "key": "lang",
+          "value": "pt",
+          "selected": true,
+          "url": "/api-2.0/search-courses/?price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=newest&lr=1"
+        },
+        {
+          "value": "fr",
+          "count": 2,
+          "title": "Français",
+          "url": "/api-2.0/search-courses/?lang=pt%7Cfr&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=newest",
+          "key": "lang"
+        },
+        {
+          "value": "de",
+          "count": 1,
+          "title": "Deutsch",
+          "url": "/api-2.0/search-courses/?lang=pt%7Cde&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=newest",
+          "key": "lang"
+        },
+        {
+          "value": "th",
+          "count": 1,
+          "title": "ภาษาไทย",
+          "url": "/api-2.0/search-courses/?lang=pt%7Cth&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=newest",
+          "key": "lang"
+        },
+        {
+          "value": "tr",
+          "count": 1,
+          "title": "Türkçe",
+          "url": "/api-2.0/search-courses/?lang=pt%7Ctr&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=newest",
+          "key": "lang"
+        },
+        {
+          "value": "zh",
+          "count": 1,
+          "title": "中文",
+          "url": "/api-2.0/search-courses/?lang=pt%7Czh&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=newest",
+          "key": "lang"
+        }
+      ],
+      "key": "language"
+    },
+    {
+      "open": true,
+      "title": "Features",
+      "options": [
+        {
+          "selected": true,
+          "title": "Quizzes",
+          "key": "quizAvailable",
+          "value": 1,
+          "is_feature": true,
+          "count": 3,
+          "url": "/api-2.0/search-courses/?lang=pt&price=price-paid%7Cprice-free&q=angular&sort=newest"
+        }
+      ],
+      "key": "features"
+    },
+    {
+      "open": true,
+      "title": "Price",
+      "options": [
+        {
+          "count": 3,
+          "title": "Paid",
+          "key": "price",
+          "value": "price-paid",
+          "selected": true,
+          "url": "/api-2.0/search-courses/?lang=pt&q=angular&quizAvailable=1&sort=newest&price=price-free"
+        }
+      ],
+      "key": "price"
+    }
+  ],
+  "count": 3,
+  "courses": [
+    {
+      "_class": "course",
+      "id": 1214624,
+      "title": "Formação Angular 2 e 4 - O início criando 7 projetos",
+      "url": "/formacao-angular-inicio-criando-7-projetos/",
+      "is_paid": true,
+      "price": "₹2,700",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/27359228_2ce0.jpg",
+          "_class": "user",
+          "display_name": "Marcio Casale de Souza",
+          "title": "Marcio Casale de Souza",
+          "job_title": "Mr",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/27359228_2ce0.jpg",
+          "id": 27359228,
+          "name": "Marcio Casale",
+          "url": "/user/marcio-casale-de-souza/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/1214624_6c76.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/1214624_6c76.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/1214624_6c76.jpg",
+      "published_title": "formacao-angular-inicio-criando-7-projetos",
+      "headline": "Aprenda a criar aplicações web do zero com o <strong>Angular</strong> 2 e 4, através de 7 projetos práticos e divertidos",
+      "discount": {
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "discount_percent_for_display": 83,
+        "saving_price": {
+          "amount": 2250,
+          "currency_symbol": "₹",
+          "currency": "INR",
+          "price_string": "₹2,250"
+        },
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-24T02:42:10-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-05T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "list_price": {
+          "amount": 2700,
+          "currency_symbol": "₹",
+          "currency": "INR",
+          "price_string": "₹2,700"
+        },
+        "price": {
+          "amount": 450,
+          "currency_symbol": "₹",
+          "currency": "INR",
+          "price_string": "₹450"
+        },
+        "buyable": {
+          "id": 1214624,
+          "type": "course"
+        }
+      },
+      "avg_rating": 4.35294,
+      "avg_rating_recent": 4.2727272727272725,
+      "num_reviews": 85,
+      "num_published_lectures": 132,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/1214624_6c76.jpg",
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "11 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": null,
+      "is_recently_published": false,
+      "predictive_score": null,
+      "relevancy_score": null,
+      "input_features": null,
+      "lecture_search_result": null
+    },
+    {
+      "_class": "course",
+      "id": 1011174,
+      "title": "Aprenda Angular + Nativescript e crie um WhatsApp",
+      "url": "/angular-native/",
+      "is_paid": true,
+      "price": "₹3,700",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/187739_6fee_2.jpg",
+          "_class": "user",
+          "display_name": "Jose Berardo Cunha",
+          "title": "Jose Berardo Cunha",
+          "job_title": "Desenvolvedor e professor na Especializa",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/187739_6fee_2.jpg",
+          "id": 187739,
+          "name": "Jose Berardo",
+          "url": "/user/joseberardo/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/1011174_0030_5.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/1011174_0030_5.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/1011174_0030_5.jpg",
+      "published_title": "angular-native",
+      "headline": "Crie apps nativas para Android e iPhone como WhatsApp usando <strong>Angular</strong> 4, Nativescript, Firebase e Typescript",
+      "discount": {
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "discount_percent_for_display": 88,
+        "saving_price": {
+          "amount": 3250,
+          "currency_symbol": "₹",
+          "currency": "INR",
+          "price_string": "₹3,250"
+        },
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-24T02:42:10-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-05T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "list_price": {
+          "amount": 3700,
+          "currency_symbol": "₹",
+          "currency": "INR",
+          "price_string": "₹3,700"
+        },
+        "price": {
+          "amount": 450,
+          "currency_symbol": "₹",
+          "currency": "INR",
+          "price_string": "₹450"
+        },
+        "buyable": {
+          "id": 1011174,
+          "type": "course"
+        }
+      },
+      "avg_rating": 4.38235,
+      "avg_rating_recent": 4.467741935483871,
+      "num_reviews": 34,
+      "num_published_lectures": 85,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/1011174_0030_5.jpg",
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "17 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": null,
+      "is_recently_published": false,
+      "predictive_score": null,
+      "relevancy_score": null,
+      "input_features": null,
+      "lecture_search_result": null
+    },
+    {
+      "_class": "course",
+      "id": 1000438,
+      "title": "Aprenda Angular 2 e 4 com TypeScript",
+      "url": "/aprenda-angular-2-com-typescript/",
+      "is_paid": true,
+      "price": "₹3,100",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/23073442_63aa.jpg",
+          "_class": "user",
+          "display_name": "Plínio Naves",
+          "title": "Plínio Naves",
+          "job_title": "Desenvolvedor Web e Mobile",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/23073442_63aa.jpg",
+          "id": 23073442,
+          "name": "Plínio",
+          "url": "/user/plinio-naves/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/1000438_8d45.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/1000438_8d45.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/1000438_8d45.jpg",
+      "published_title": "aprenda-angular-2-com-typescript",
+      "headline": "Construa aplicações modernas, escaláveis e testáveis com a nova versão do Framework do Google!",
+      "discount": {
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "discount_percent_for_display": 85,
+        "saving_price": {
+          "amount": 2650,
+          "currency_symbol": "₹",
+          "currency": "INR",
+          "price_string": "₹2,650"
+        },
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-24T02:42:10-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-05T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "list_price": {
+          "amount": 3100,
+          "currency_symbol": "₹",
+          "currency": "INR",
+          "price_string": "₹3,100"
+        },
+        "price": {
+          "amount": 450,
+          "currency_symbol": "₹",
+          "currency": "INR",
+          "price_string": "₹450"
+        },
+        "buyable": {
+          "id": 1000438,
+          "type": "course"
+        }
+      },
+      "avg_rating": 4.5778,
+      "avg_rating_recent": 4.575862068965518,
+      "num_reviews": 527,
+      "num_published_lectures": 102,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/1000438_8d45.jpg",
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "10 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": null,
+      "is_recently_published": false,
+      "predictive_score": null,
+      "relevancy_score": null,
+      "input_features": null,
+      "lecture_search_result": null
+    }
+  ],
+  "paid_alternative": null,
+  "pagination": {
+    "current_page": 1,
+    "total_page": 1,
+    "pages": [
+      {
+        "label": 1,
+        "selected": true,
+        "url": "/api-2.0/search-courses/?lang=pt&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=newest&p=1"
+      }
+    ]
+  },
+  "suggestion": {
+    "phrase": null
+  },
+  "sort_options": {
+    "current_sort_option": {
+      "label": "Newest",
+      "url": "/api-2.0/search-courses/?lang=pt&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=newest",
+      "key": "newest"
+    },
+    "options": [
+      {
+        "label": "Most Relevant",
+        "url": "/api-2.0/search-courses/?lang=pt&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=relevance",
+        "key": "relevance"
+      },
+      {
+        "label": "Most Reviewed",
+        "url": "/api-2.0/search-courses/?lang=pt&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=most-reviewed",
+        "key": "most-reviewed"
+      },
+      {
+        "label": "Highest Rated",
+        "url": "/api-2.0/search-courses/?lang=pt&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=highest-rated",
+        "key": "highest-rated"
+      },
+      {
+        "label": "Price: Low to High",
+        "url": "/api-2.0/search-courses/?lang=pt&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=price-low-to-high",
+        "key": "price-low-to-high"
+      },
+      {
+        "label": "Price: High to Low",
+        "url": "/api-2.0/search-courses/?lang=pt&price=price-paid%7Cprice-free&q=angular&quizAvailable=1&sort=price-high-to-low",
+        "key": "price-high-to-low"
+      }
+    ]
+  },
+  "promotion": {
+    "has_course_filter": false,
+    "is_promotion_filter_active": false,
+    "promotion_id": "F6O7SG717DEAL10"
+  },
+  "discovery_unit": null,
+  "analyzed_query": null,
+  "query": null,
+  "debug": null,
+  "course_labels": null,
+  "related_searches": null,
+  "search_log": {
+    "id": 320,
+    "phrase": "angular"
+  },
+  "application_areas": null,
+  "related_searches_position": "disabled",
+  "search_quickview_variant": "disabled",
+  "spell_corrected_search_query": null
+}
